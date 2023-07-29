@@ -1,0 +1,216 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* para que sea responsive */
+@media(max-width:100px){
+    body{
+        padding: 30px;
+    }
+
+    form{
+        padding: 50px 50px;
+        width: 100%;
+    }
+
+    input{
+        padding: 15px;
+    }
+}
+
+
+@keyframes saludo {
+    20% {transform: rotate3d(0, 0, 1, 15deg);}
+    40% {transform: rotate3d(0, 0, 1, -10deg);}
+    60% {transform: rotate3d(0, 0, 1, 5deg);}
+    80% {transform: rotate3d(0, 0, 1, -5deg);}
+    to  {transform: rotate3d(0, 0, 1, 0deg);}
+    }
+    
+    .saludo {
+        display: inline-block;
+        animation-name: saludo;
+        animation-duration: 2s;
+        zoom: 1.5;
+    }
+
+h1{
+    text-align: center;
+    color: white;    
+    font-size: 60px;
+    font-family: 'Jost', sans-serif;
+}
+
+body.Seccion-1{
+    background-color: #0b2447;
+}
+
+hr{
+    width: 60%;
+    height: 4px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;   
+}
+
+.Seccion-2{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top:30px;
+    background-color: #19376D;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Jost', sans-serif;
+}
+
+.boton-jap{
+    transition: .3s, color .10s;
+    cursor: pointer;
+    border: none;
+    color: none;
+    width: 100%;
+    position: relative;
+}
+
+.boton-jap:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+    cursor: pointer;
+    color: none;
+    border: none;
+}
+
+.Seccion-3{
+    background-color: #576CBC;
+    padding-top: 15px;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Jost', sans-serif;
+}
+
+h2{
+    font-size: 50px;
+}
+
+#parrafo-arriba{
+    position: relative;
+    top: -20px;
+}
+
+.Seccion-4{
+    font-size: 150%;
+    background-color: #A5D7E8;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: -150px;
+    padding-right: 15px;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    color: black;
+}
+  
+#texto-arriba{
+    position: relative;
+    top: -40px;
+}
+
+#h2-arriba{
+    position: relative;
+    top: -20px;
+}
+
+#gato{
+    position: relative;
+    top: -120px;
+    border-radius: 10%;
+}
+
+#pokebola{
+    position: relative;
+    top: -120px;
+    border-radius: 10%;
+}
+
+#Tiktok{
+    position: relative;
+    top: -80px;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+#ilustracionig{
+    position: relative;
+    top: -50px;
+}
+
+#tiktoklink{
+    position: relative;
+    top: -100px;
+}
+
+.Seccion-5{
+    background-color: #222222;
+    padding-top: 15px;
+    font-size: 100%;
+    text-align:left;
+    color: rgb(0, 0, 0);
+    padding-left: 5px;
+    padding-bottom: -20px;
+    padding-right: 5px;
+    font-family: 'Jost', sans-serif;
+    transform: translate(0, 2px);
+}
+
+#titulo-contacto{
+    text-align: left;
+    font-size: 40px;
+}
+
+.linkig{
+    display: inline-block;
+    position: relative;
+}
+
+.linkig img {
+  position: absolute;
+  transform: translate(850%, -190%);
+}
+
+.mail{
+    display: inline-block;
+    position: relative;
+}
+
+.mail img {
+  position: absolute;
+  transform: translate(980%, -190%);
+}
+
+.linkedinn{
+    display: inline-block;
+    position: relative;
+}
+
+.linkedinn img {
+  position: absolute;
+  transform: translate(1100%, -190%);
+}
+
+#derecha{
+    text-align: right;
+    position:relative;
+    top: -20px;
+    left: -10px;
+    font-size: 30px;
+    color: white;
+}
+
